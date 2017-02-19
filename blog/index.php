@@ -154,7 +154,7 @@ require_once "utils/functions.php";
             </p>
         </div>
         <?php 
-            foreach (get_posts() as $post) {
+            foreach (array_reverse(get_posts()) as $post) {
         ?>
             <div class="well">
                 <div class="selector">
