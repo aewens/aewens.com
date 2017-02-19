@@ -44,7 +44,8 @@ require_once "utils/functions.php";
         }
         .navbar-brand > img {
             height: 36px;
-            width: auto;
+            width: 36px;
+            position: absolute;
         }
         .navbar-title {
             height: 36px;
@@ -53,6 +54,7 @@ require_once "utils/functions.php";
             font-size: 24px;
             vertical-align: middle;
             padding-left: 6px;
+            margin-left: 36px;
         }
         .navbar-right {
             /*margin: 6px -6px 6px 6px;*/
